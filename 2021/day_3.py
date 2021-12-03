@@ -11,7 +11,6 @@ def problem_1(fname):
             most_freq = most_freq_char(lines, i)
             gamma += most_freq
             epsilon += "1" if most_freq == "0" else "0"
-    print(gamma, epsilon)
     return gamma, epsilon
 
 
